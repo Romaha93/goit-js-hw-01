@@ -94,11 +94,11 @@ console.log(getElementWidth("200px", "0px", "0px")); // 200
 
 // function calculateTotal(number) {
 //   // let total = 0;
-//   // for (let index = 1; index <= number; index++) 
+//   // for (let index = 1; index <= number; index++)
 //   //   total += index;
 //   //   return total;
 //   let total = 0;
-//   let index = 1; 
+//   let index = 1;
 //   while (index <= number) {
 //     total += index;
 //     index++;
@@ -107,3 +107,24 @@ console.log(getElementWidth("200px", "0px", "0px")); // 200
 // }
 
 // console.log(calculateTotal(5));
+
+// function calculateEvenTotal(number) {
+//   let total = 0; // 2 + 4 + 6 + 8 + 10 + 12
+//   for (let index = 0; index <= number; index += 2)
+//    total += index;
+//    return total
+// }
+
+// console.log(calculateEvenTotal(12));
+
+// const start = 11;
+// const end = 30;
+// let number 
+//  for (let index = start; index <= end; index++) {
+//    if (index % 5 === 0) {
+//     number = index;
+//     break;
+//     }
+// }
+ 
+// console.log(number)
